@@ -63,7 +63,7 @@ describe("Transactions Component", () => {
   });
 
   test("passes correct props to child components", () => {
-    const { container } = render(
+    render(
       <Provider store={store}>
         <ChakraProvider>
           <Transactions />

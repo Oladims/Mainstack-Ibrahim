@@ -2,7 +2,6 @@ import { useFetchUser } from 'hooks/useFetchUser';
 import HeaderActions from './Actions';
 import Navigation from './Navigation';
 import './index.scss';
-import logo from 'assets/mainstack.png';
 
 const AppHeader = () => {
   useFetchUser();
