@@ -1,0 +1,21 @@
+.app-bar {
+  border-radius: 100px;
+  background: #fff;
+  box-shadow:
+    0px 6px 12px 0px rgba(92, 115, 131, 0.08),
+    0px 4px 8px 0px rgba(92, 115, 131, 0.08);
+  display: inline-flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 4px;
+
+  .app-bar-icon {
+    border-radius: 100px;
+    mix-blend-mode: luminosity;
+
+    &:hover {
+      mix-blend-mode: normal;
+      background: var(--gray-gray-50, #eff1f6);
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.transaction-filter-drawer {
+  right: 15px !important;
+  top: 15px !important;
+  bottom: 15px !important;
+  border-radius: 20px;
+  background: var(--white-white-100, #fff);
+  box-shadow:
+    0px 8px 16px 4px rgba(188, 196, 204, 0.1),
+    0px 12px 24px 0px rgba(219, 222, 229, 0.1),
+    0px 16px 32px 0px rgba(219, 222, 229, 0.1);
+  backdrop-filter: blur(8px);
+
+  .filter-heading {
+    h2 {
+      color: var(--black-black-300, #131316);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28.8px;
+      text-transform: capitalize;
+    }
+  }
+
+  .filter-options {
+    .date-range {
+      .filter-custom-date {
+        .custom-select-date {
+          display: flex;
+          padding: 0px 16px;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+          border-radius: 12px;
+          border: 3px solid var(--gray-gray-50, #eff1f6);
+          background: var(--gray-gray-50, #eff1f6);
+          height: 45px;
+
+          &:focus {
+            outline: 3px solid var(--black-black-300, #131316);
+          }
+        }
+      }
+    }
+  }
+}
+
+.days-option {
+  display: flex;
+  padding: 10px 18px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid var(--gray-gray-50, #eff1f6);
+  background: var(--trashed-colors-white-100, #fff);
+  color: var(--black-black-300, #131316);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+  min-width: fit-content;
+}
+
+.days-option-active {
+  color: var(--trashed-colors-white-100, #fff);
+  background: var(--black-black-300, #131316);
+  border: 1px solid var(--gray-gray-50, #080809);
+}
+
+.select-filter-label {
+  color: var(--black-black-300, #131316);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.4px;
+}

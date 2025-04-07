@@ -1,0 +1,35 @@
+.graph-container {
+  .chart-area {
+    .Series {
+      path {
+        stroke-width: 1px !important;
+      }
+    }
+    .axes {
+      g:first-child {
+        .inner {
+          .grid {
+            display: none !important;
+          }
+          .domainAndTicks {
+            .tick {
+              display: none !important;
+            }
+          }
+        }
+      }
+      g:nth-child(2) {
+        .inner {
+          .grid {
+            display: none !important;
+          }
+          .domainAndTicks {
+            .tick {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

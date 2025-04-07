@@ -1,0 +1,146 @@
+.transactions-breakdown {
+  .table-head {
+    .table-heading {
+      h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+      }
+
+      p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.2px;
+      }
+    }
+
+    .table-actions {
+      .filter-btn {
+        border-radius: 100px;
+        height: 48px;
+        background-color: #EFF1F6;
+        .indicator {
+          display: flex;
+          width: 20px;
+          height: 20px;
+          justify-content: center;
+          align-items: center;
+          background: var(--black-black-300, #131316);
+          color: var(--trashed-colors-white-100, var(--white-white-100, #fff));
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 12px;
+          letter-spacing: -0.4px;
+        }
+      }
+    }
+  }
+}
+
+.single-transaction {
+  .details {
+    .desc-status {
+      h4 {
+        color: var(--black-black-300, #131316);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+      }
+
+      p {
+        color: var(--gray-gray-400, #56616b);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: -0.2px;
+      }
+
+      .successful {
+        color: #0ea163;
+      }
+
+      .pending {
+        color: #a77a07;
+      }
+
+      .failed {
+        color: #961100;
+      }
+    }
+  }
+
+  .amount-date {
+    h4 {
+      color: var(--black-black-300, #131316);
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: -0.4px;
+    }
+
+    p {
+      color: var(--gray-gray-400, #56616b);
+      text-align: right;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: -0.2px;
+    }
+  }
+}
+
+.empty-transaction-container {
+  margin: 50px auto;
+
+  .icon-container {
+    border-radius: 15px;
+    background: var(--card-gradient-15,
+        linear-gradient(135deg, #dbdee5 1.89%, #f6f7f9 98.77%));
+    width: 48px;
+    height: 48px;
+  }
+
+  h2 {
+    color: var(--black-black-300, #131316);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+    letter-spacing: -0.6px;
+    width: 370px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+  }
+
+  .empty-button {
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 100px;
+    height: 48px;
+    color: var(--black-black-300, #131316);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.4px;
+  }
+}

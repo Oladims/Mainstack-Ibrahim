@@ -1,0 +1,35 @@
+.revenue-page {
+  .revenue-summary {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100px;
+
+    .graph-and-balance {
+      .balance-summary {
+        .summary-balance {
+          h3 {
+            color: var(--black-black-300, #131316);
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -1.5px;
+          }
+        }
+      }
+    }
+
+    .other-summaries {
+      .summary-balance {
+        h3 {
+          color: var(--black-black-300, #131316);
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 38px;
+          letter-spacing: -0.6px;
+        }
+      }
+    }
+  }
+}
