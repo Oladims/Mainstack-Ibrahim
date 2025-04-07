@@ -21,7 +21,6 @@
     "react": "^18.2.0",
     "react-charts": "^3.0.0-beta.57",
     "react-dom": "^18.2.0",
-    "test": "jest",
     "react-icons": "^4.12.0",
     "react-query": "^3.39.3",
     "react-redux": "^8.1.3",
