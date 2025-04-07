@@ -14,12 +14,12 @@ const SummaryBalance = ({ title, figure }: Props) => {
       </div>
       <h3 className="text-[28px] font-bold text-black">
         USD{" "}
-        {figure
-          ? figure.toLocaleString("en-US", {
+        {+figure
+          ? Number(figure).toLocaleString("en-US", {
               style: "decimal",
               minimumFractionDigits: 2,
             })
-          : 0}
+          : "0.00"}
       </h3>
     </div>
   );
